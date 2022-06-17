@@ -1,0 +1,4 @@
+free ram: 6.18
+        total ram: 15.92
+        used ram: 9.74
+        cpu : 8
