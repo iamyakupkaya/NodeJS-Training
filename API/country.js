@@ -12,6 +12,7 @@ https
       const jsonData = JSON.parse(data); //bu method string ifadeyi JSONa dönüştürür.
       console.log(typeof jsonData); //object -dizi-
       if (jsonData[0]) console.log("Data tamamlandı..\n", jsonData[0].name);
+      else console.error("Could not achieve data")
     });
   })
   .on("error", (err) => {
